@@ -1,0 +1,46 @@
+{
+    "title": "学习笔记",
+    "author": "张刚学",
+    "description": "学习笔记",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "styles": {},
+    "structure": {
+        "readme": "README.md"
+    },
+    "links": {
+        "sidebar": {
+            "共享服务": "http://172.16.1.23/#/login"
+        }
+    },
+    "plugins": [  
+      "-sharing",
+      "splitter",
+      "expandable-chapters-small",
+      "anchor-navigation-ex"],
+    "pluginsConfig": {
+        "sharing": {
+            "douban": false,
+            "facebook": false,
+            "google": false,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": false,
+            "qq": false,
+            "qzone": false,
+            "stumbleupon": false,
+            "twitter": false,
+            "viber": false,
+            "vk": false,
+            "weibo": false,
+            "whatsapp": false,
+            "all": []
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false
+        }
+    }
+}
