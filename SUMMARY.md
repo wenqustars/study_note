@@ -23,15 +23,15 @@
 * 开源项目贡献
     * [开源贡献](apache/contribution.md)
 * [数据库简介](database/Introduction.md)
-    * [mysql元数据同步](database/metadata_sync.md)
     * [mysql设计](database/mysql_design.md)
+    * [mysql元数据同步](database/metadata_sync.md)
     * [mysql备份](database/mysql_backup.md)
-* 项目开发工具
-    * [Java诊断工具-Arthas](develop_tools/arthas.md)
-* 项目开发工具
+*  项目开发工具
     * [mybatis plugin](jetbrains/mybatis.md)
     * [FindBugs-IDEA](jetbrains/find_bugs.md)
     * [CheckStyle-IDEA](jetbrains/check_style.md)
+* 项目管理工具
+    * [Java诊断工具-Arthas](develop_tools/arthas.md)
+    * [jenkins使用教程](develop_tools/jenkins.md)
 * ElasticSearch文档
     * [ElasticSearch Restfull接口](elastic/restfull.md)
-
