@@ -10,11 +10,12 @@
     },
     "links": {
         "sidebar": {
-            "共享服务": "http://172.16.1.23/#/login"
+            "共享服务": "http://localhost:4003"
         }
     },
     "plugins": [  
       "-sharing",
+      "github",
       "splitter",
       "expandable-chapters-small",
       "anchor-navigation-ex"],
@@ -39,6 +40,10 @@
             "whatsapp": false,
             "all": []
         },
+        "github": {
+            "url": "https://github.com/wenqustars/study_note"
+        },
+        "expandable-chapters-small":{},
         "anchor-navigation-ex": {
             "showLevel": false
         }

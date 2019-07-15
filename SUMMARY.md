@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [前言](README.md)
 * [markdown文档](markdown/Introduction.md)
     * [Markdown标题](markdown/title.md)
     * [markdown段落格式](markdown/paragraph.md)
@@ -9,7 +9,7 @@
     * [markdown图片](markdown/picture.md)
     * [markdown表格](markdown/table.md)
     * [markdown进阶](markdown/advanced.md)
-* linux文档
+* [linux文档](linux/collect.md)
     * [SS翻墙服务器](linux/shadowsocks.md)
     * [Terminator终端分屏](linux/terminator.md)
     * [git使用](linux/git_use.md)
@@ -20,18 +20,23 @@
     * [目录名转化成英文](linux/english.md)
     * [私人网盘](linux/nextcloud.md)
     * [apache2网络配置](linux/apache2.md)
-* 开源项目贡献
+    * [shell编程](linux/shell.md)
+    * [Ubuntu的中文乱码](linux/mojibake.md)
+* [开源项目贡献](apache/collect.md)
     * [开源贡献](apache/contribution.md)
 * [数据库简介](database/Introduction.md)
     * [mysql设计](database/mysql_design.md)
     * [mysql元数据同步](database/metadata_sync.md)
     * [mysql备份](database/mysql_backup.md)
-*  项目开发工具
+* [项目开发工具](jetbrains/collect.md)
     * [mybatis plugin](jetbrains/mybatis.md)
     * [FindBugs-IDEA](jetbrains/find_bugs.md)
     * [CheckStyle-IDEA](jetbrains/check_style.md)
-* 项目管理工具
+* [项目管理工具](develop_tools/collect.md)
     * [Java诊断工具-Arthas](develop_tools/arthas.md)
     * [jenkins使用教程](develop_tools/jenkins.md)
-* ElasticSearch文档
+* [ElasticSearch文档](elastic/collect.md)
     * [ElasticSearch Restfull接口](elastic/restfull.md)
+* [技术资料整理](tidy/collect.md)
+    * [调度工具](tidy/schedule.md)
+
