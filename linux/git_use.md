@@ -1,37 +1,27 @@
 # git使用
 ## git操作
-**查看日志**
+**克隆代码**
 ```shell
-git log
+git clone git@github.com:apache/repositories.git
 ```
-**本地回滚到某次commit**
+**添加远程库**
 ```shell
-git reset --hard commit-id
+#添加远程仓库，并给远程仓库取别名为 origin
+git remote add origin git@github.com:apache/repositories.git
+#将本地代码添加到远程仓库
+git push -u origin master
 ```
-**拉取官网提交到本地**
-```shell
-git pull apache_hbase master
+**切换分支**
+```shell 
+#切换到远程分支
+git checkout -b localbranch origin/remotebranch
+#切换到本地分支
+git checkout dev
 ```
-**将本地提交到 自己的github仓库，此后github的仓库  应该就和官网的仓库一致了**
-```shell
-git push origin master --force
+**分支代码合并**
 ```
-**使用git format-patch生成所需要的patch**
-```shell
-git format-patch -M master // 当前分支所有超前master的提交
-git format-patch -s 4e16 // 某次提交以后的所有patch, --4e16指的是SHA1 ID
-git format-patch -1 // 单次提交
-git format-patch -3 // 从master往前3个提交的内容，可修改为你想要的数值
-git format-patch –n 07fe // -n指patch数，07fe对应提交的名称, 某次提交（含）之前的几次提交
-git format-patch -s --root origin // 从origin到指定提交的所有patch
-```
-**参考地址**
-https://git-scm.com/docs/git-format-patch
-```shell
-git commit -m '[HBASE-22461] A "NullPointerException" could be thrown'
-git push origin master
-git format-patch -1
-```
-```shell
-mv 0001-HBASE-22461-A-NullPointerException-could-be-thrown.patch HBASE-22461.patch
+#将branch上的修改合并到当前分支，branch分支的所有修改在当前分支只会形成一个提交记录
+git merge --no-ff branch
+#将branch上的修改合并到当前分支，使用--no-ff参数可让当前分支保留branch分支修改的提交记录
+git merge --no-ff branch
 ```

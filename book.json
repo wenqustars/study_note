@@ -14,38 +14,23 @@
         }
     },
     "plugins": [  
+      "-lunr", 
+      "-search", 
       "-sharing",
       "github",
       "splitter",
-      "expandable-chapters-small",
-      "anchor-navigation-ex"],
-    "pluginsConfig": {
-        "sharing": {
-            "douban": false,
-            "facebook": false,
-            "google": false,
-            "hatenaBookmark": false,
-            "instapaper": false,
-            "line": false,
-            "linkedin": false,
-            "messenger": false,
-            "pocket": false,
-            "qq": false,
-            "qzone": false,
-            "stumbleupon": false,
-            "twitter": false,
-            "viber": false,
-            "vk": false,
-            "weibo": false,
-            "whatsapp": false,
-            "all": []
-        },
-        "github": {
-            "url": "https://github.com/wenqustars/study_note"
-        },
+      "splitter",
+      "search-pro",
+      "anchor-navigation-ex",
+      "expandable-chapters-small"
+    ],
+    "pluginsConfig": { 
         "expandable-chapters-small":{},
-        "anchor-navigation-ex": {
+        "anchor-navigation-ex": { 
             "showLevel": false
+        },
+        "github": { 
+            "url": "https://github.com/wenqustars/study_note"
         }
     }
 }
