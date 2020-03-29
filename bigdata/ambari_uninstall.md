@@ -156,3 +156,6 @@ OK，成功！Ambari里如何删除某指定的服务Ambari Metrics.
 
 关于若是删除其他的服务，一样的步骤，把服务名改下就是了。
 </font>
+
+参考文档地址：  
+https://www.cnblogs.com/zlslch/p/6653421.html
