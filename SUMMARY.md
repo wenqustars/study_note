@@ -24,6 +24,8 @@
     * [Ubuntu的中文乱码](linux/mojibake.md)
     * [Ubuntu使用技巧](linux/ubuntu_skills.md)
     * [ubuntu系统redis多实例](linux/redis_mult_instance.md)
+* [大数据组件](bigdata/collect.md)
+    * [ambri服务卸载](bigdata/ambari_uninstall.md)
 * [开源项目贡献](apache/collect.md)
     * [开源贡献](apache/contribution.md)
 * [数据库简介](database/Introduction.md)

@@ -25,3 +25,23 @@ git merge --no-ff branch
 #将branch上的修改合并到当前分支，使用--no-ff参数可让当前分支保留branch分支修改的提交记录
 git merge --no-ff branch
 ```
+变更远程仓库
+# 查看远程仓库信息
+git remote
+
+git remote -v
+# git@gitlab.mininglamp.com:project/beijing/industry/wuguihu/signalruleprobe.git方法一 Update
+# 修改远程仓库地址
+
+git remote set-url origin git@code.mzsvn.com:0000484/signalruleprobe.git
+
+
+# 
+git branch --set-upstream-to=origin/master master
+git branch --set-upstream-to=origin/topic topic方法二 remove && add
+git remote rm origin git@gitlab.mininglamp.com:project/beijing/industry/wuguihu/signalruleprobe.git
+
+git remote add origin git@code.mzsvn.com:0000484/signalruleprobe.git方法三 修改配置文件
+直接修改配置文件
+进入git_test/.git
+vim config
